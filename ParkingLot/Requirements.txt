@@ -1,0 +1,28 @@
+Parking Lot System
+
+Configure/Register
+-Floors
+-Spots of 3 types
+
+
+1)Entry
+	-Check Availabilty
+	-Get Nearest available slot
+	-Block Spot (Notify Monitoring)
+	-Print Ticket 
+2)Exit
+	-Free Spot(Notify Monitoring)
+	-Calculate Amount
+	-Payment (Cash Card UPI)
+3)Search/Monitering
+	-If LicensePlate exists in system
+	-Total No. of Empty slots in the system per Type                   
+	
+
+ParkingLot has Floors
+ParkingLot has n Entrace/Exits
+Floor has Parking Spots of diffrent types , each slot has a distance from each gate.
+ParkingLot has a SpotSelectionStratagy
+ParkingLot has a BillingStratagy Regular,PeakHour,Discounted
+
+	
